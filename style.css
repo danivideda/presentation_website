@@ -75,17 +75,17 @@ body {
 /* Page 1 Animations */
 #page-1 h1 {
   transform: translate(0px, -1200px);
-  animation: heading var(--animate-speed) forwards;
+  animation: heading var(--animate-speed) forwards ease;
 }
 
 #page-1 p {
   transform: translate(-1800px, 0);
-  animation: paragraph var(--animate-speed) forwards 1s; 
+  animation: paragraph var(--animate-speed) forwards 1s ease; 
 }
 
 #page-1 a {
   opacity: 0;
-  animation: button var(--animate-speed) forwards 2s;
+  animation: button var(--animate-speed) forwards 2s ease;
 }
 
 /* Keyframes */
